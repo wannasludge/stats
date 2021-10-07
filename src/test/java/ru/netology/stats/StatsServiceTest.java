@@ -11,7 +11,7 @@ class StatsServiceTest {
         StatsService service = new StatsService();
         int[] months = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 180;
-        int actual = service.calculate(months);
+        int actual = service.calculateSum(months);
         assertEquals(expected, actual);
     }
 
